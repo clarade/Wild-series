@@ -1,0 +1,18 @@
+@import "~bootstrap/scss/bootstrap";
+
+$theme-colors: (
+    "primary": #d2fffc,
+    "secondary": #92fff8
+);
+
+.navbar {
+    background-color: theme-color(primary) !important;
+}
+
+h1 {
+    color: theme-color(secondary);
+}
+
+body {
+    background-color: #413f3f;
+}
